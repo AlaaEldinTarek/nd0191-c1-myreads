@@ -42,7 +42,7 @@ export const SearchPage = ({ books }) => {
       }
     });
     setComboBooks(combo);
-  }, [sbooks]);
+  }, [sbooks,mapIdBooks]);
 
   const createMapIdBooks = (books) => {
     const map = new Map();
